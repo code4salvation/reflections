@@ -4,3 +4,12 @@ or share its project to several other programmers and want them to create their 
 to keep. So being a programmer I feel it somehow exhibits the feature of Java's Interface but in a more improved manner. And it 
 also fulfills to keep a version controlled repository on a secure server system on web where there is no fear of data loss of file
 and theres always a chance to recover no matter how messy code on your local computer become.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+As the Github is used for sharing of repository and files with public. People might contribute to those files and commit changes to it. You might now want those commits to be pulled automatically on your local repository as it may change the way your files are working automatically without prompting an acceptance message which would be displeasing and discomforting from a programmer's point of view.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are used when you want to clone( copy along with commit history) a repository from one Github url to your Github profile within Github so it inhibits a long time taking process where you need to clone files on local computer and then push it back to your Github profile. On the other hand clones can create a clone Github repository on your local computer with all the commit history. You just need to type 
+git clone Github_url_to_clone_repository_from
+Branches are actually labels for commits where several commits can be starting with a branch and ending with ultimate parent. It maintains the state with a collection of commits. Where if you have a single project where you have two different logics for two different functionalities. Then you can label them under two different branches and then for your final code you can merge those branches to incorporate those functionalities in you final outcome of the project.
+
