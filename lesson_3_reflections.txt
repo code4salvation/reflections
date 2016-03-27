@@ -13,3 +13,6 @@ Forks are used when you want to clone( copy along with commit history) a reposit
 git clone Github_url_to_clone_repository_from
 Branches are actually labels for commits where several commits can be starting with a branch and ending with ultimate parent. It maintains the state with a collection of commits. Where if you have a single project where you have two different logics for two different functionalities. Then you can label them under two different branches and then for your final code you can merge those branches to incorporate those functionalities in you final outcome of the project.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It helps to avoid conflicts between the local and remote repository and you can work with much more freedom and open mind on your local repository once it is in sync with remote one.
+
