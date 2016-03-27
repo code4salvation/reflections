@@ -3,3 +3,18 @@ When you initialise a repository using git init, it creates a .git/ directory wh
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 To commit a newly or previously initialised repository it is important you make sure which files you want to commit or create a newer version of in a repository so that a new version of repository is created with those updated files. To achieve this you need to add those files to a place called staging area which allows you to add those files you want to commit along with a repository, it maybe all files or even a single file in a repository. After adding these files next step is commit and you have a newer version of that repository with newer versions of files added to the staging area.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can add files to staging area using git add and then you can commit it using git commit and then adding message in the editor, then saving it and closing the editor. So whatever logical change you made you add those files with change to the staging area and then commit it making sure that only that logical change is accumulated in that commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches actually make your code modify at different level it creates different copies of your code where you can use each copy for different purposes like one can be used to add an experimental feature to your project, another could be a translation into some other language and many more uses without affecting other branches. By default git works on master branch.
+
+How do the diagrams help you visualize the branch structure?
+They tell you about the parent of each commit of a branch and their reachability.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging helps to accumulate successful commits under a single branch name. It makes all the commits reachable under that branch and the diagram represents the exact view of how commits are merged under one branch and the parent of each commit is easily visible using the diagram so fixing bugs becomes easy as well.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros of automatic merging comes in handy when your code is sorted and you are coding with a bit extra attention. Cons of it is that it might introduce buggy code into the merged file. So thats why it is  better to go with manual merging which you can do when you are sure that the code is ready to work together and the changes incorporated won't be harming the merged code.
