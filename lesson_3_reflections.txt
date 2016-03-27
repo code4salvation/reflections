@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+Remote repository is a great feature made available to a programmer using git and github because a programmer might want to deploy
+or share its project to several other programmers and want them to create their versions of it so that it can choose from which one
+to keep. So being a programmer I feel it somehow exhibits the feature of Java's Interface but in a more improved manner. And it 
+also fulfills to keep a version controlled repository on a secure server system on web where there is no fear of data loss of file
+and theres always a chance to recover no matter how messy code on your local computer become.
