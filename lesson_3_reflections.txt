@@ -16,3 +16,9 @@ Branches are actually labels for commits where several commits can be starting w
 What is the benefit of having a copy of the last known state of the remote stored locally?
 It helps to avoid conflicts between the local and remote repository and you can work with much more freedom and open mind on your local repository once it is in sync with remote one.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I'd have probably gone with manual mailing option if I didn't know about Git or Github. But yeah it would not be as easier and time-saving than Git or Github because you can easily let people know about where they have gone off the track using pull requests and merging their branches into ours and propose a correction by reviewing it.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Creating a separate branch rather than master branch allows the user to interact to create a separate logic or feature in a difference space under different branch label without concerning about the effects of code gone wrong on the master branch and when you are all done with your feature and is ready to be exhibited then you can merge those branches on Github itself using pull requests. You use master branch to make changes when you are confident about your changes and you know its not gonna leave any bad effect on the project. And its saving your creating and merging or even deleting that created branch time as well. 
+
